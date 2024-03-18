@@ -41,16 +41,10 @@ ul li a:hover {
 
 .slider {
     display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
 }
-  
+
 .slider img {
-    flex: 0 0 20%;
-    width: 250px;
-    margin: 15px;
-    object-fit: cover;
-    scroll-snap-align: center;
+    width: 400px;
 }
 
 .content p {

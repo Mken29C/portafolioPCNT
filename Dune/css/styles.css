@@ -54,6 +54,11 @@ img {
 
 footer {
     background-color: black;
+    height: 300px;
+}
+
+footer p {
+    font-size: 20px;
 }
 
 .imagenc img {

@@ -26,6 +26,8 @@ nav {
 
 ul li{
     display: inline;
+    justify-content: center;
+    align-items: center;
 }
 
 ul li a {
@@ -46,7 +48,7 @@ ul li a:hover {
 }
   
 .slider img {
-    flex: 0 0 20%;
+    flex: 0 0 40%;
     width: 250px;
     margin: 15px;
     object-fit: cover;
