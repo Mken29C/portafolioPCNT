@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+}
+
+h1{
+    margin-left: 41vw;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 32vw;
+}
+
+header {
+    width: 100vw;
+    height: 64px;
+}
+
+header nav {
+    margin: 0 auto;
+}
+
+header nav img {
+    vertical-align: middle;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    list-style-type: none;
+}
+
+header nav ul li {
+    font-size: 25px;
+}
+
+header nav ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+header nav ul li a:hover {
+    color: #191919;
+    transition: all 0.5s;
+}
+
+.content {
+    margin: 1vw 4vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one , .oneK{
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: center;
+}
+
+.one img {
+    width: 120px;
+    vertical-align: center;
+}
+
+.oneK img {
+    width: 120px;
+    height: 96px;
+    vertical-align: center;
+}
+
+.ang {
+    background: rgb(147,232,132);
+    background: radial-gradient(circle, rgba(147,232,132,1) 0%, rgba(89,177,85,1) 100%);
+}
+
+.meg {
+    background: rgb(255,245,0);
+    background: radial-gradient(circle, rgba(255,245,0,1) 0%, rgba(255,0,0,1) 100%);
+}
+
+.buz {
+    background: rgb(160,255,253);
+    background: radial-gradient(circle, rgba(160,255,253,1) 0%, rgba(39,105,180,1) 100%);
+}
+
+.che {
+    background: rgb(255,160,251);
+    background: radial-gradient(circle, rgba(255,160,251,1) 0%, rgba(147,56,184,1) 100%);
+}
+
+.bus {
+    background: rgb(0,235,255);
+    background: radial-gradient(circle, rgba(0,235,255,1) 0%, rgba(0,7,25,1) 70%);
+}
+
+.kit {
+    background: rgb(255,210,253);
+    background: radial-gradient(circle, rgba(255,210,253,1) 0%, rgba(182,254,255,1) 68%);
+}
+
+.cor, .dou {
+    background: rgb(255,144,250);
+    background: radial-gradient(circle, rgba(255,144,250,1) 0%, rgba(255,252,130,1) 68%);
+}
+
+.pea {
+    background: rgb(223,166,2);
+    background: radial-gradient(circle, rgba(223,166,2,1) 0%, rgba(98,22,0,1) 75%);
+}
+
+.fan {
+    background: rgb(2,220,223);
+    background: linear-gradient(90deg, rgba(2,220,223,1) 0%, rgba(255,0,0,1) 100%);
+}

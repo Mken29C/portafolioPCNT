@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+}
+
+h1{
+    margin-left: 39vw;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 33vw;
+}
+
+header {
+    width: 100vw;
+    height: 64px;
+}
+
+header nav {
+    margin: 0 auto;
+}
+
+header nav img {
+    vertical-align: middle;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    list-style-type: none;
+}
+
+header nav ul li {
+    font-size: 25px;
+}
+
+header nav ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+header nav ul li a:hover {
+    color: #191919;
+    transition: all 0.5s;
+}
+
+.content {
+    margin: 1vw 4vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one{
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: center;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+
+.atra {
+    background: url(imgs/atrapagemas.png);
+}
+.sind {
+    background: url(imgs/Supervivencia.png);
+}
+.sduo {
+    background: url(imgs/Supervivencia.png);
+}
+.atrac {
+    background: url(imgs/caza.png);
+}
+.caza {
+    background: url(imgs/atraco.png);
+    color: black;
+}

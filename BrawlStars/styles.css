@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+}
+
+h1{
+    font-size: 71px;
+}
+
+header {
+    width: 100vw;
+    height: 64px;
+}
+
+header nav {
+    margin: 0 auto;
+}
+
+header nav img {
+    vertical-align: middle;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    list-style-type: none;
+}
+
+header nav ul li {
+    font-size: 25px;
+}
+
+header nav ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+header nav ul li a:hover {
+    color: #191919;
+    transition: all 0.5s;
+}
+
+.inicio .shelly {
+    width: 100vw;
+}
+
+.brawlers{
+    padding: 5vh 15vh;
+    height: 25vh;
+}
+
+.brawlers p{
+    font-size: 25px;
+}
+
+button {
+    bottom: 0;
+    border: none; 
+    background-color: #FFB921;
+    color: white; 
+    font-size: 25px;
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #eda200;
+    transition: all 0.5s;
+}
+
+.temporada {
+    margin-top: 100px;
+    position: relative;
+}
+
+.temporada .temp {
+    position: absolute;
+    right: 41.5vw;
+    bottom: 20vh;
+}
+
+.temporada img{
+    width: 100vw;
+}
+
+footer {
+    height: 192px;
+    background-color: black;
+}
